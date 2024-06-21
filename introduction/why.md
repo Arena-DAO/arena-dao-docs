@@ -1,31 +1,56 @@
 # Why create the Arena DAO?
 
-### Bridging Trust
+Arena DAO was created to address key challenges in online competitions and decentralized organizations. Here's how we're revolutionizing the space:
 
-Users shouldn’t have to rely on trust for competition payouts. Imagine playing an online chess match with someone across the globe, only for your opponent to disconnect upon losing. With Arena DAO, this risk is eliminated.&#x20;
+### 1. Bridging Trust in Competition Payouts
 
-**Arena DAO's Solution:** Our [competition workflow](../the-arena-core/competitions/) allows users to set an expiration time for competitions, after which they can be "jailed." In this state, Arena DAO acts as a neutral mediator, reviewing evidence from both parties to ensure a fair outcome.
+**The Problem:** In traditional online competitions, participants often face the risk of non-payment or disputes.
 
-### **Fixing Centralized Issues**
+**Arena DAO's Solution:** Our platform implements a trustless competition workflow:
 
-Traditional competition platforms use centralized credit systems, posing security risks and vulnerabilities. These systems are prime targets for hacks and often involve processing fees and withdrawal limits.&#x20;
+* Users can set expiration times for competitions
+* Disputes trigger a "jailed" state
+* Arena DAO acts as a neutral mediator, reviewing evidence to ensure fair outcomes
 
-**Arena DAO's Solution:** Arena DAO uses blockchain tokens for all transactions, ensuring your coins remain yours unless they’re in competition escrow. We charge a minimal [platform fee](../the-arena-core/tax.md) to support the ecosystem. With Neutron's low gas fees, we offer a cost-efficient solution for competitors.
+### 2. Enhancing Financial Security
 
-### Simplifying Distributions
+**The Problem:** Centralized credit systems in traditional platforms pose security risks and often involve high fees and withdrawal limits.
 
-Managing team payouts manually is tedious and error-prone. As a team member, you might worry about timely and fair distribution of prize money.&#x20;
+**Arena DAO's Solution:**
 
-**Arena DAO's Solution:** With [preset distributions](../the-arena-core/escrow.md), teams can automate the allocation of competition winnings directly to members' escrow balances, ensuring quick and fair payouts.
+* Use of blockchain tokens for all transactions
+* Funds remain in user control unless in competition escrow
+* Minimal platform fees to support the ecosystem
+* Leveraging Neutron's low gas fees for cost-efficiency
 
-### **Transforming Competitive Organizations**
+### 3. Simplifying Prize Distributions
 
-Traditional competitive organizations often suffer from power imbalances and lack of transparency, leaving players and teams with little influence over management decisions.&#x20;
+**The Problem:** Manual management of team payouts is tedious and error-prone.
 
-**Arena DAO's Solution:** Arena DAO empowers every participant with ownership through [decentralized governance](https://docs.daodao.zone/introduction/whats-a-dao). Whether you're a host, player, team, or fan, you have a stake in the organization. This ensures aligned interests and transparent decision-making.
+**Arena DAO's Solution:**
 
-### **A Lack of Open-Source Infrastructure**
+* Automated preset distributions
+* Direct allocation of winnings to members' escrow balances
+* Quick and fair payouts for all team members
 
-The eSports industry lacks open-source infrastructure, relying heavily on proprietary software that stifles innovation and flexibility.&#x20;
+### 4. Democratizing Competitive Organizations
 
-**Arena DAO's Solution:** Arena DAO champions open-source principles by offering modular competition frameworks through open-source smart contracts. Our [Arena Core](broken-reference) and Competition Modules enable participants to create custom rules, implement unique reward structures, and organize new competitive formats. This fosters an innovative ecosystem where contributors can easily build, share, and enhance each other’s work.
+**The Problem:** Traditional organizations often suffer from power imbalances and lack of transparency.
+
+**Arena DAO's Solution:**
+
+* Decentralized governance giving every participant ownership
+* Stakeholder involvement for hosts, players, teams, and fans
+* Aligned interests and transparent decision-making
+
+### 5. Providing Open-Source Infrastructure
+
+**The Problem:** The eSports industry lacks open-source infrastructure, stifling innovation.
+
+**Arena DAO's Solution:**
+
+* Open-source smart contracts for modular competition frameworks
+* Arena Core and Competition Modules for custom rules and formats
+* Fostering an innovative ecosystem for community contributions
+
+By addressing these key issues, Arena DAO is set to transform the landscape of online competitions and decentralized organizations.

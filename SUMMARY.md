@@ -7,17 +7,16 @@
 * [How to get started?](introduction/how-to-get-started.md)
 * [Contributor Guideline](introduction/contributor-guideline.md)
 
-## 🏆 The Arena Core
+## 🏆 The Arena Architecture
 
-* [Categories](the-arena-core/categories/README.md)
-  * [Rulesets](the-arena-core/categories/rulesets.md)
-* [Tax](the-arena-core/tax.md)
-* [Escrow](the-arena-core/escrow.md)
-* [Competitions](the-arena-core/competitions/README.md)
-  * [Wagers](the-arena-core/competitions/wagers.md)
-  * [Leagues](the-arena-core/competitions/leagues.md)
-  * [Tournaments](the-arena-core/competitions/tournaments.md)
+* [Arena Core](the-arena-architecture/arena-core.md)
+* [Escrow](the-arena-architecture/escrow.md)
+* [Competition Modules](the-arena-architecture/competition-modules/README.md)
+  * [Wagers](the-arena-architecture/competition-modules/wagers.md)
+  * [Leagues](the-arena-architecture/competition-modules/leagues.md)
+  * [Tournaments](the-arena-architecture/competition-modules/tournaments.md)
 
 ## 🪙 Tokenomics
 
 * [Augmented Bonding Curve](tokenomics/augmented-bonding-curve.md)
+* [Arena Gladiators](tokenomics/arena-gladiators.md)

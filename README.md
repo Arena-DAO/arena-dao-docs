@@ -4,28 +4,46 @@ description: The next iteration of competition infrastructure.
 
 # What is the Arena DAO?
 
-### A Decentralized Competition Platform and DAO
+Arena DAO is a decentralized autonomous organization (DAO) that serves as a trustless, peer-to-peer competition platform. Our mission is to empower individuals and communities to engage in fair, transparent, and exciting competitions without the concerns of non-payment or distribution issues.
 
-The concept of the Arena DAO originated as a trustless, peer-to-peer competition platform. Our vision was to empower people to compete without worrying about non-payers or distribution problems. To achieve this, we required an arbiter that could provide impartial oversight. Thus, the Arena DAO was born. By merging decentralized governance with an innovative competition platform, the Arena DAO offers a seamless solution for competitive communities.
+### Key Features
 
-### A Partnership Network
+#### 1. Decentralized Governance
 
-The Arena DAO will act as a bridge between sponsors, brands, and competitors. Through strategic partnerships and sponsorship opportunities, we aim to create a win-win ecosystem that benefits players, teams, and partners alike. This network ensures sustainable growth and resource availability for its ecosystems, forging strong relationships that drive the future of competition. Our partnerships enable us to offer attractive incentives, increased visibility, and enhanced resources to all stakeholders.
+Arena DAO leverages blockchain technology to ensure transparent, community-driven decision-making.
 
-### **A Multi-Title eSports Organization**
+#### 2. Trust-minimized Competitions
 
-The Arena DAO oversees Arena eSports, which comprises multiple subDAOs, each dedicated to a specific eSports title. These subDAOs function as influential bodies within their respective gaming communities, guiding Arena DAO’s strategic initiatives in the eSports sector. Members of each subDAO play significant roles in voting on future plans, allocating funding for events, and shaping the outreach and development of their communities. This structure ensures that the Arena eSports division supports its members' endeavors and empowers them to influence the growth and direction of the eSports industry through thoughtful governance and community engagement.
+Our platform enables users to participate in various competitions with confidence, knowing that disputes are resolved impartially and rewards are distributed efficiently.
 
-### Our Foundation
+#### 3. Partnership Network
 
-Our foundation is built on DAO DAO, providing the best infrastructure for decentralized governance. DAO DAO's robust framework enables efficient decision-making, transparent operations, and community-driven management. Visit their documentation for more details.
+We foster collaborations between sponsors, brands, and competitors, creating a vibrant ecosystem that benefits all participants.
+
+#### 4. Innovative Technology
+
+Built on DAO DAO infrastructure and deployed on the Neutron network, Arena DAO offers low transaction fees, high performance, and seamless smart contract integration.
+
+### Our Technical Foundation
+
+#### DAO DAO
+
+Arena DAO is built on DAO DAO, providing the best infrastructure for decentralized governance. DAO DAO's robust framework enables efficient decision-making, transparent operations, and community-driven management.
 
 {% embed url="https://docs.daodao.zone/introduction/welcome-to-dao-dao" %}
 DAO DAO Docs
 {% endembed %}
+
+#### Neutron Network
 
 The Arena DAO is deployed on the Neutron network, chosen for its low gas fees, excellent support for CosmWasm, and permissionless contract deployments. Neutron's features ensure that our platform remains cost-effective, highly performant, and accessible to a global audience.
 
 {% embed url="https://docs.neutron.org/" %}
 Neutron Docs
 {% endembed %}
+
+### Our Vision
+
+Arena DAO aims to revolutionize how competitions are conducted by removing intermediaries, ensuring fairness, and empowering community members. Whether you're a competitor, sponsor, or enthusiast, Arena DAO provides a platform where your voice matters and your participation is valued.
+
+Join us in shaping the future of decentralized competitions!

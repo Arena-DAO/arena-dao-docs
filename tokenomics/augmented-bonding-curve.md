@@ -1,43 +1,64 @@
 # Augmented Bonding Curve
 
-An Augmented Bonding Curve (ABC) is an advanced financial instrument used in decentralized finance (DeFi) to facilitate the creation and management of token economies. It combines the principles of bonding curves with additional mechanisms to ensure more robust and sustainable ecosystems. Our implementation can be found [here](https://github.com/your-repo/cw-abc).
+An Augmented Bonding Curve (ABC) is an advanced financial mechanism used in decentralized finance (DeFi) to create and manage sustainable token economies. It builds upon traditional bonding curves, incorporating additional features to ensure a more robust and balanced ecosystem.
 
-### Inspiration
+For a deep dive into ABCs, check out these resources:
 
 * [Deep Dive: Augmented Bonding Curves](https://medium.com/commonsstack/deep-dive-augmented-bonding-curves-b5ca4fad4436)
 * [Continuous Organizations](https://medium.com/hackernoon/introducing-continuous-organizations-22ad9d1f63b7)
 
-### Transition from Membership to Token-Based DAO
+The implementation can be found [here](https://github.com/your-repo/cw-abc).
 
-Initially, the Arena DAO will operate as a membership-based organization focusing on building a strong community foundation and setting the groundwork for our decentralized governance. As we grow, the DAO will transition into a token-based model using the ABC. This transition will allow the DAO to automate token supply management effectively and align incentives between the DAO and its early contributors. Only [contributors](../introduction/contributor-guideline.md) will be allowed to participate in the hatch phase.
+> **Note:** The tokenomics described below are subject to change before the official launch of the Arena token. Please refer to our official communications for the most up-to-date information.
 
-### ABC Configuration
+### Arena DAO's Transition to ABC
 
-* **Token Supply:** The ARENA token will have a capped supply of **100 million tokens**, governed by a square-root curve with **USDC**.
-* **External Liquidity:** External liquidity will be set up as soon as the hatch phase ends.
-* **Liquidity Mining Incentives:** $100k of the ABC funding will be allocated to provide liquidity mining incentives for the USD-ARENA pool.
+#### Initial Phase: Membership-Based DAO
 
-#### Hatch Phase
+Arena DAO will start as a membership-based organization, focusing on building a strong community foundation and establishing decentralized governance frameworks.
 
-In the hatch phase, early contributors (hatchers) can buy tokens with minimal friction, each having a limit according to their hatch configuration. This phase aims to bootstrap the DAO’s initial funding and token distribution.
+#### Transition: Token-Based Model
 
-* **Funding Goal:** Ends after raising 7k USDC (subject to change).
-* **Founder Purchase:** The founder will buy first with a limit of 5k USDC.
-* **Contributor Participation:** Contributors can then buy within their limits.
+As we grow, we'll transition to a token-based model using the ABC, which will automate token supply management and align incentives between the DAO and early contributors.
 
-#### Open Phase
+### ABC Configuration for Arena DAO
 
-In the open phase, anyone can mint new tokens or sell them into the curve. The AMM pool and ABC will work together to create a dynamic and efficient market for ARENA tokens.
+* **Token:** ARENA
+* **Total Supply:** 100,000,000 tokens
+* **Pricing Model:** Square-root curve with USDC
+* **Liquidity:** Established during the hatch phase as protocol-owned liquidity
 
-* An **entry fee** of **95%** will be applied to directly fund the DAO's treasury
-* No exit fee will be applied
+### Token Distribution
 
-#### Closed Phase
+1. Founder: 21,544,347 tokens (21.54%)
+2. Contributor Space: 6,686,734 tokens (6.69%)
+3. Arena Gladiators: 10,388,495 tokens (10.39%)
+4. Arena Liquidity: 5,192,988 tokens (5.19%)
+5. Investors: 9,567,170 tokens (9.57%)
+6. Open Phase Mint: 46,620,266 tokens (46.62%)
 
-In the closed phase, users can only sell tokens into the curve without friction. While not currently on the roadmap, this phase can serve as a complete liquidation mechanism for the token through the ABC if needed.
+### Phases of the ABC
+
+#### 1. Hatch Phase
+
+Purpose: Bootstrap initial funding, token distribution, and establish liquidity
+
+* **Total Allocation:** 53,379,734 tokens (53.38% of total supply)
+* **Participants:** Founder, Contributors, Arena Gladiators, Investors
+* **Exclusivity:** Only approved contributors can participate
+* **Liquidity Establishment:** Protocol-owned liquidity is set up during this phase
+
+#### 2. Open Phase
+
+* **Available for Minting:** 46,620,266 tokens (46.62% of total supply)
+* **Entry Fee:** 99.999% (directly funds DAO treasury)
+* **Exit Fee:** None
+
+#### 3. Closed Phase (Future Consideration)
+
+* Allows only selling of tokens into the curve
+* Potential complete liquidation mechanism (not currently on roadmap)
 
 ### ABC Visualized
 
-{% embed url="https://docs.google.com/spreadsheets/d/192D4nuhlSwULwc7p3gPJlR4yB-SuGFShMziEPF9b8Sw/edit?usp=sharing" %}
-Augmented Bonding Curve Visualized
-{% endembed %}
+{% embed url="https://docs.google.com/spreadsheets/d/1UihzlAW_EgawsUIFcXlEUOCqGOwHfhVXwD-sIAUy7_s/edit?usp=sharing" fullWidth="true" %}
