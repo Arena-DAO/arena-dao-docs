@@ -2,7 +2,7 @@
 
 The Arena Core is the central component of our architecture, storing and managing information critical to all competitions within the Arena DAO ecosystem. It serves as the backbone for our decentralized competition platform, ensuring consistency, fairness, and efficiency across all activities.
 
-Importantly, the Arena Core is built as an extension of a 'dao prepropose module'. This design allows us to specifically propose jailing competitions on the DAO, streamlining the dispute resolution process. The proposal module is configured for revoting, meaning that jailed competitions will be resolved by a majority vote after a predetermined period of time, ensuring fair and community-driven conflict resolution.
+Importantly, the Arena Core is built as an extension of a 'DAO pre-propose module'. This design allows us to specifically propose jailing competitions on the DAO, streamlining the dispute resolution process. The proposal module is configured for revoting, meaning that jailed competitions will be resolved by a majority vote after a predetermined period of time, ensuring fair and community-driven conflict resolution.
 
 Key components of the Arena Core include:
 
@@ -36,3 +36,4 @@ Key components of the Arena Core include:
 
 * Manages the platform's fee to sustain the ecosystem
 * The tax rate at launch will be 5%
+* Updated through the DAO

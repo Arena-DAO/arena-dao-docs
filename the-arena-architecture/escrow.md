@@ -1,6 +1,6 @@
 # Escrow
 
-The escrow system is a cornerstone of Arena DAO's competition platform, ensuring fair and transparent management of funds and assets. It protects contributions from participants and hosts, distributing them according to competition results.
+The escrow system is a cornerstone of Arena DAO's competition platform, ensuring fair and transparent management of funds and assets.
 
 ### Key Functions
 

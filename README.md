@@ -24,8 +24,6 @@ We foster collaborations between sponsors, brands, and competitors, creating a v
 
 Built on DAO DAO infrastructure and deployed on the Neutron network, Arena DAO offers low transaction fees, high performance, and seamless smart contract integration.
 
-### Our Technical Foundation
-
 #### DAO DAO
 
 Arena DAO is built on DAO DAO, providing the best infrastructure for decentralized governance. DAO DAO's robust framework enables efficient decision-making, transparent operations, and community-driven management.
