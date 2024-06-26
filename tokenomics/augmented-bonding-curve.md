@@ -7,7 +7,7 @@ For a deep dive into ABCs, check out these resources:
 * [Deep Dive: Augmented Bonding Curves](https://medium.com/commonsstack/deep-dive-augmented-bonding-curves-b5ca4fad4436)
 * [Continuous Organizations](https://medium.com/hackernoon/introducing-continuous-organizations-22ad9d1f63b7)
 
-The implementation can be found [here](https://github.com/your-repo/cw-abc).
+The implementation can be found [here](https://github.com/DA0-DA0/dao-contracts/pull/697).
 
 > **Note:** The tokenomics described below are subject to change before the official launch of the Arena token. Please refer to our official communications for the most up-to-date information.
 
