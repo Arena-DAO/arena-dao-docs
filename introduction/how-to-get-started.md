@@ -38,6 +38,10 @@ Now, let's move your funds to the Neutron network where Arena DAO operates.
    * For USDC, withdraw to the Noble network.
 2. **Bridge Funds:** Use one of these bridging solutions to move your assets to Neutron:
 
+{% embed url="https://app.neutron.org/bridge" %}
+Neutron Bridge
+{% endembed %}
+
 {% embed url="https://ibc.fun/?dest_asset=ibc/b559a80d62249c8aa07a380e2a2bea6e5ca9a6f079c912c3a9e9b494105e4f81&dest_chain=neutron-1&src_asset=uusdc&src_chain=noble-1" %}
 ibc.fun Router
 {% endembed %}
