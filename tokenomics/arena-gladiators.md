@@ -2,6 +2,8 @@
 
 Arena Gladiators is a unique NFT-based subDAO within the Arena DAO ecosystem. This collection of AI-generated digital gladiator assets not only serves as collectibles but also forms a governance structure of its own, wielding significant influence in the broader Arena DAO.
 
+<figure><img src="../.gitbook/assets/153.webp" alt=""><figcaption></figcaption></figure>
+
 ### Key Features
 
 1. **NFT-Based Governance**: Each Arena Gladiator NFT represents membership and voting rights in the Gladiators subDAO.
