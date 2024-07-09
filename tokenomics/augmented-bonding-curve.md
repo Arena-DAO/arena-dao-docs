@@ -26,39 +26,51 @@ As we grow, we'll transition to a token-based model using the ABC, which will au
 * **Token:** ARENA
 * **Total Supply:** 100,000,000 tokens
 * **Pricing Model:** Square-root curve with USDC
-* **Liquidity:** Established during the hatch phase as protocol-owned liquidity
 
-### Token Distribution
+#### Token Distribution
 
-1. Founder: 21,544,347 tokens (21.54%)
-2. Contributor Space: 6,686,734 tokens (6.69%)
-3. Arena Gladiators: 10,388,495 tokens (10.39%)
-4. Arena Liquidity: 5,192,988 tokens (5.19%)
-5. Investors: 9,567,170 tokens (9.57%)
-6. Open Phase Mint: 46,620,266 tokens (46.62%)
+* Founder: 21,544,347 tokens (21.54%)
+* Arena Gladiators: 10,335,410 tokens (10.34%)
+* Arena Liquidity: 2,319,762 tokens (2.32%)
+* Community Pool: 20,088,833 tokens (20.09%)
+* Open Phase Mint: 45,711,648 tokens (45.71%)
 
 ### Phases of the ABC
 
 #### 1. Hatch Phase
 
-Purpose: Bootstrap initial funding, token distribution, and establish liquidity
-
-* **Total Allocation:** 53,379,734 tokens (53.38% of total supply)
-* **Participants:** Founder, Contributors, Arena Gladiators, Investors
+* **Total Allocation:** 54,288,352 tokens (54.29% of total supply)
+* **Participants:** Founder, Arena Gladiators, Community Pool
 * **Exclusivity:** Only approved contributors can participate
-* **Liquidity Establishment:** Protocol-owned liquidity is set up during this phase
+* **Key Features:**
+  * Initial token distribution to core team and early supporters
+  * Establishes the foundation for the DAO's token economy
+  * No public trading or liquidity at this stage
 
 #### 2. Open Phase
 
-* **Available for Minting:** 46,620,266 tokens (46.62% of total supply)
+* **Available for Minting:** 45,711,648 tokens (45.71% of total supply)
 * **Entry Fee:** 99.999% (directly funds DAO treasury)
 * **Exit Fee:** None
+* **Key Features:**
+  * Public participation begins
+  * Continuous token minting based on the bonding curve
+  * Dynamic pricing determined by token supply
+  * AMM Liquidity Establishment:
+    * Triggered after raising 10,000 USDC through minting
+    * Creates a liquid market for ARENA tokens
+    * Enables token swaps and improves price discovery
 
 #### 3. Closed Phase (Future Consideration)
 
-* Allows only selling of tokens into the curve
-* Potential complete liquidation mechanism (not currently on roadmap)
+* **Purpose:** Potential mechanism for graceful shutdown or transition
+* **Key Features:**
+  * Allows only selling of tokens into the curve
+  * No new minting permitted
+  * Potential complete liquidation mechanism (not currently on roadmap)
 
 ### ABC Visualized
 
 {% embed url="https://docs.google.com/spreadsheets/d/1UihzlAW_EgawsUIFcXlEUOCqGOwHfhVXwD-sIAUy7_s/edit?usp=sharing" fullWidth="true" %}
+Charts on right side
+{% endembed %}

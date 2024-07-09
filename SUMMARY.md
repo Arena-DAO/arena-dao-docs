@@ -19,4 +19,5 @@
 ## 🪙 Tokenomics
 
 * [Augmented Bonding Curve](tokenomics/augmented-bonding-curve.md)
+* [Community Pool](tokenomics/community-pool.md)
 * [Arena Gladiators](tokenomics/arena-gladiators.md)
