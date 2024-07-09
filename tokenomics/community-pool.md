@@ -1,3 +1,0 @@
-# Community Pool
-
-🚧 **Under Construction** 🚧

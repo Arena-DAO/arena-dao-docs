@@ -31,8 +31,8 @@ As we grow, we'll transition to a token-based model using the ABC, which will au
 
 * Founder: 21,544,347 tokens (21.54%)
 * Arena Gladiators: 10,335,410 tokens (10.34%)
-* Arena Liquidity: 2,319,762 tokens (2.32%)
-* Community Pool: 20,088,833 tokens (20.09%)
+* Reserved Liquidity: 2,319,762 tokens (2.32%)
+* DAO Treasury: 20,088,833 tokens (20.09%)
 * Open Phase Mint: 45,711,648 tokens (45.71%)
 
 ### Phases of the ABC
