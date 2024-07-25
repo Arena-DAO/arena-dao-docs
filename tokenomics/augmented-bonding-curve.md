@@ -24,23 +24,22 @@ As we grow, we'll transition to a token-based model using the ABC, which will au
 ### ABC Configuration for Arena DAO
 
 * **Token:** ARENA
-* **Total Supply:** 100,000,000 tokens
+* **Total Supply:** 1,000,000 tokens
 * **Pricing Model:** Square-root curve with USDC
 
 #### Token Distribution
 
-* Founder: 21,544,347 tokens (21.54%)
-* Arena Gladiators: 10,335,410 tokens (10.34%)
-* Reserved Liquidity: 2,319,762 tokens (2.32%)
-* DAO Treasury: 20,088,833 tokens (20.09%)
-* Open Phase Mint: 45,711,648 tokens (45.71%)
+* Founder: 200,000 tokens (20%)
+* Arena Gladiators: 100,000 tokens (10%)
+* DAO Treasury: 300,000 tokens (30%)
+* Open Phase Mint: 400,000 tokens (40%)
 
 ### Phases of the ABC
 
 #### 1. Hatch Phase
 
-* **Total Allocation:** 54,288,352 tokens (54.29% of total supply)
-* **Participants:** Founder, Arena Gladiators, Community Pool
+* **Total Allocation:** 600,000 tokens (60% of total supply)
+* **Participants:** Founder, Arena Gladiators, Arena DAO
 * **Exclusivity:** Only approved contributors can participate
 * **Key Features:**
   * Initial token distribution to core team and early supporters
@@ -49,8 +48,8 @@ As we grow, we'll transition to a token-based model using the ABC, which will au
 
 #### 2. Open Phase
 
-* **Available for Minting:** 45,711,648 tokens (45.71% of total supply)
-* **Entry Fee:** 99.999% (directly funds DAO treasury)
+* **Available for Minting:** 400,000 tokens (40% of total supply)
+* **Entry Fee:** 99.9965% (directly funds DAO treasury)
 * **Exit Fee:** None
 * **Key Features:**
   * Public participation begins

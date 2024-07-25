@@ -4,7 +4,7 @@ The Arena DAO's Treasury is a vital component of our ecosystem, designed to mana
 
 ### Treasury Allocation and Growth
 
-Initial Allocation: 20,088,833 ARENA tokens (20.09% of the total token supply)
+Initial Allocation: 300,000 ARENA tokens (30% of the total token supply)
 
 The Treasury is not static; it's designed to grow over time through:
 
