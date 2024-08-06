@@ -15,6 +15,7 @@
   * [Wagers](the-arena-architecture/competition-modules/wagers.md)
   * [Leagues](the-arena-architecture/competition-modules/leagues.md)
   * [Tournaments](the-arena-architecture/competition-modules/tournaments.md)
+* [Competition Enrollment](the-arena-architecture/competition-enrollment.md)
 
 ## 🪙 Tokenomics
 
