@@ -4,54 +4,49 @@ description: Ensuring Fair and Transparent Fund Management
 
 # Escrow
 
-The escrow system is a cornerstone of Arena DAO's competition platform, ensuring fair and transparent management of funds and assets. It provides a secure and reliable way to handle participant contributions, prize distributions, and withdrawals.
+The escrow system is a cornerstone of Arena DAO's competition platform, ensuring fair and transparent management of funds and assets. Working in conjunction with the [Payment Registry](payment-registry.md), it provides a secure and reliable way to handle participant contributions, prize distributions, and withdrawals.
 
-### Key Functions
+### Funding
 
-#### 1. Funding
-
-* **Multi-Token Support**: The escrow system is designed to handle multiple token types, including:
+* **Multi-Token Support**: Handles multiple token types, including:
   * CW20 tokens (fungible tokens)
   * Native tokens (e.g., ATOM, OSMO)
   * CW721 tokens (non-fungible tokens, or NFTs)
-* **Locking Mechanism**: Participants must send their required contributions to the escrow, which locks the funds once the competition is fully funded. This ensures that all necessary funds are secured for the duration of the competition.
-* **Withdrawal**: Users can withdraw their funds from the escrow when it is in an unlocked state, typically after the competition has concluded and the distribution process is complete.
+* **Locking Mechanism**: Secures funds once the competition is fully funded.
+* **Withdrawal**: Allows fund withdrawal when in an unlocked state.
 
-#### 2. Fund Distribution
+### Fund Distribution
 
-The escrow system employs a flexible distribution mechanism to accommodate various competition structures and payout schemes:
-
-**a. Member-Percentage Distribution**
-
-* Funds are allocated to participants based on a predefined member-percentage list.
-* The sum of all percentages must equal 100% to ensure a complete and accurate distribution.
-
-**b. Remainder Address**
-
-* A designated remainder address receives any leftover funds after the member share calculations have been performed.
-* Due to their indivisible nature, all NFTs (CW721 tokens) are sent to the remainder address.
-
-**c. Preset Distributions**
-
-* Members can establish preset distribution rules for incoming funds, simplifying the distribution process.
-* For example, a DAO can specify an even distribution among its members, automatically splitting the funds according to the preset rules.
-* Important: Preset distributions cannot be modified once the escrow is in a locked state.
-
-#### 3. Withdrawal Process
-
-* After the fund distribution has been completed, users can withdraw their allocated balances from the escrow.
-* The withdrawal process is initiated by the user and executed by the smart contract, ensuring a secure and auditable transfer of funds.
+* **Member-Percentage Distribution**: Allocates funds based on predefined percentages.
+* **Remainder Address**: Receives leftover funds and all NFTs.
 
 ### Escrow States
 
-The escrow system has two primary states:
+1. **Unlocked**: Ready to receive funds and allow withdrawals.
+2. **Locked**: Funds secured during the competition.
 
-1. **Unlocked**: In this state, the escrow is ready to receive funds and allows users to withdraw their balances. This state is typically active before a competition begins and after it has concluded.
-2. **Locked**: When the escrow is locked, funds are secured and cannot be withdrawn. This state is active during the competition, ensuring that all necessary funds are held securely until the competition is complete.
+### Workflow
 
-Please note the following important considerations:
-
-* Preset distributions cannot be changed once the escrow is locked, ensuring the integrity and immutability of the distribution rules.
-* Funds cannot be withdrawn when the escrow is in a locked state, protecting the participants' contributions and the competition's prize pool.
-
-The Arena DAO escrow system is designed to provide a secure, transparent, and flexible solution for managing funds in decentralized competitions, fostering trust and fairness among all participants.
+1. **Competition Setup**
+   * Organizers create the competition and set parameters.
+   * Participants register and set their distribution preferences in the Payment Registry.
+2. **Funding Phase**
+   * Escrow is in the Unlocked state.
+   * Participants send required contributions to the escrow.
+   * Once fully funded, the escrow transitions to the Locked state.
+   * The competition's activation height is recorded.
+3. **Competition Active**
+   * Escrow remains in the Locked state.
+   * Payment Registry records are immutable for this competition.
+4. **Competition Conclusion**
+   * Arena Core determines the winners and prize allocations.
+5. **Distribution Process**
+   * Arena Core queries the Payment Registry for each winner's distribution preferences.
+   * The query uses the winner's address and the recorded activation height.
+   * Escrow system processes distributions based on: a. Competition-level allocations (e.g., 1st place, 2nd place) b. Individual winner's Payment Registry preferences
+6. **Withdrawal Phase**
+   * Escrow transitions back to the Unlocked state.
+   * Winners (individuals or teams) can withdraw their allocated funds.
+   * For team distributions:
+     * Funds are automatically subdivided according to the Payment Registry records.
+     * Team members can withdraw their individual allocations directly.

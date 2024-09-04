@@ -10,6 +10,7 @@
 ## 🏆 The Arena Architecture
 
 * [Arena Core](the-arena-architecture/arena-core.md)
+* [Payment Registry](the-arena-architecture/payment-registry.md)
 * [Escrow](the-arena-architecture/escrow.md)
 * [Competition Modules](the-arena-architecture/competition-modules/README.md)
   * [Wagers](the-arena-architecture/competition-modules/wagers.md)
@@ -20,5 +21,6 @@
 ## 🪙 Tokenomics
 
 * [Augmented Bonding Curve](tokenomics/augmented-bonding-curve.md)
+* [Token Gateway](tokenomics/token-gateway.md)
 * [Treasury](tokenomics/treasury.md)
 * [Arena Gladiators](tokenomics/arena-gladiators.md)

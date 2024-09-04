@@ -5,17 +5,10 @@ Arena DAO offers a diverse range of competition modules, each designed to cater 
 ```mermaid
 flowchart TB
     Start([Start]) --> HasDues{Competition<br>Has Dues?}
-    HasDues -->|Yes| ShouldActivateDues{Should Activate<br>On Funded?}
-    HasDues -->|No| ShouldActivateNoDues{Should Activate<br>On Funded?}
-    
-    ShouldActivateDues -->|Yes| PendingDues[Pending:<br>Awaiting Dues]
-    ShouldActivateDues -->|No| PendingManual[Pending:<br>Manual Activation]
-    
-    ShouldActivateNoDues -->|Yes| ActiveCompetition[Active Competition]
-    ShouldActivateNoDues -->|No| PendingManual
+    HasDues -->|Yes| PendingDues[Pending:<br>Awaiting Dues]
+    HasDues -->|No| ActiveCompetition[Active Competition]
     
     PendingDues -->|All Dues Paid| ActiveCompetition
-    PendingManual -->|Host Manually<br>Activates| ActiveCompetition
     
     ActiveCompetition -->|Expiration Reached| ConsensusCheck{Consensus<br>Reached?}
     ConsensusCheck -->|Yes| InactiveCompetition[Inactive Competition]
@@ -29,7 +22,6 @@ flowchart TB
     LockedEscrow -->|Competition<br>Resolved| UnlockedEscrow
     
     PendingDues -.-> UnlockedEscrow
-    PendingManual -.-> UnlockedEscrow
     ActiveCompetition -.-> LockedEscrow
     InactiveCompetition -.-> UnlockedEscrow
     
@@ -38,7 +30,7 @@ flowchart TB
     classDef escrow fill:#73D2DE,stroke:#2E4057,stroke-width:2px,color:#2E4057;
     classDef startend fill:#2ECC71,stroke:#2E4057,stroke-width:2px,color:#2E4057;
     
-    class HasDues,ShouldActivateDues,ShouldActivateNoDues,ConsensusCheck decision;
+    class HasDues,ConsensusCheck decision;
     class UnlockedEscrow,LockedEscrow escrow;
     class Start,End startend;
 
