@@ -59,7 +59,23 @@ ibc.fun Router
 Squid Router
 {% endembed %}
 
-### Step 4: Enter The Arena!
+### Step 4: Establish a Team via DAO DAO (Optional)
+
+If you're interested in creating a team to participate in competitions, you can establish a team using DAO DAO, a platform for creating and managing decentralized autonomous organizations.
+
+1. **Visit DAO DAO Platform**
+   * Go to [DAO DAO](https://daodao.zone/).
+2. **Create a New DAO**
+   * Click on **"Create"** and follow the on-screen instructions.
+3. **Use the Apps tab of your DAO to proceed with** [**Step 5**](how-to-get-started.md#step-5-enter-the-arena)
+
+{% embed url="https://docs.daodao.zone/introduction/welcome-to-dao-dao" %}
+DAO DAO Docs
+{% endembed %}
+
+_Note: This step is optional but recommended for teams seeking a formal governance structure._
+
+### Step 5: Enter The Arena!
 
 Now that your wallet is ready and your funds are on the right network, you're set to dive into The Arena!
 
