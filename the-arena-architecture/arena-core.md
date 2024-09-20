@@ -1,10 +1,10 @@
----
-description: The Heart of Our Decentralized Competition Platform
----
-
 # Arena Core
 
 The Arena Core is the central component of our architecture, storing and managing information critical to all competitions within the Arena DAO ecosystem. It serves as the backbone for our decentralized competition platform, ensuring consistency, fairness, and efficiency across all activities.
+
+{% hint style="info" %}
+Please note that the smart contracts used in this project have **not been audited**. While every effort has been made to ensure the security and accuracy of the code, we strongly advise conducting your own thorough review and due diligence before interacting with these contracts.
+{% endhint %}
 
 ### Integration with DAO Pre-Propose Module
 
