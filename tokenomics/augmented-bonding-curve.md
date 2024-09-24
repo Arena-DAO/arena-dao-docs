@@ -7,7 +7,7 @@ For a deep dive into ABCs, check out these resources:
 * [Deep Dive: Augmented Bonding Curves](https://medium.com/commonsstack/deep-dive-augmented-bonding-curves-b5ca4fad4436)
 * [Continuous Organizations](https://medium.com/hackernoon/introducing-continuous-organizations-22ad9d1f63b7)
 
-The implementation can be found [here](https://github.com/DA0-DA0/dao-contracts/pull/697).
+The implementation can be found [here](https://github.com/ismellike/dao-contracts/tree/fork/v2.5.0-arena/contracts/external/cw-abc).
 
 > **Note:** The tokenomics described below are subject to change before the official launch of the Arena token. Please refer to our official communications for the most up-to-date information.
 
@@ -49,16 +49,11 @@ As we grow, we'll transition to a token-based model using the ABC, which will au
 #### 2. Open Phase
 
 * **Available for Minting:** 400,000 tokens (40% of total supply)
-* **Entry Fee:** 99.9965% (directly funds DAO treasury)
+* **Entry Fee:** 99.995% (directly funds DAO treasury)
 * **Exit Fee:** None
 * **Key Features:**
   * Public participation begins
   * Continuous token minting based on the bonding curve
-  * Dynamic pricing determined by token supply
-  * AMM Liquidity Establishment:
-    * Triggered after raising 10,000 USDC through minting
-    * Creates a liquid market for ARENA tokens
-    * Enables token swaps and improves price discovery
 
 #### 3. Closed Phase (Future Consideration)
 
