@@ -5,6 +5,7 @@
 * [What is the Arena DAO?](README.md)
 * [Why create the Arena DAO?](introduction/why.md)
 * [How to get started?](introduction/how-to-get-started.md)
+* [How to withdraw?](introduction/how-to-withdraw.md)
 * [Contributor Guideline](introduction/contributor-guideline.md)
 
 ## 🏆 The Arena Architecture

@@ -1,10 +1,14 @@
 # How to get started?
 
-This guide will walk you through the process of joining our decentralized platform, from setting up your wallet to participating in competitions and governance. Let's get you ready for the Arena!
+his guide will walk you through joining Arena DAO, from setting up your wallet to getting cryptocurrency, so you can dive into decentralized competitions with ease.
 
 ### Step 1: Set Up Your Wallet
 
-To interact with Arena DAO, you'll need a wallet compatible with the Cosmos ecosystem. We recommend:
+To get started, you'll need a wallet that supports the Cosmos ecosystem. Here are two easy-to-use options:
+
+{% hint style="info" %}
+Follow the steps to install the wallet and make sure to **save your recovery phrase** in a safe place—this is crucial for securing your funds. Never share it with others.
+{% endhint %}
 
 {% embed url="https://www.keplr.app/" %}
 Keplr Wallet
@@ -14,74 +18,94 @@ Keplr Wallet
 Leap Wallet
 {% endembed %}
 
-### Step 2: Acquire Cryptocurrency
+### Step 2: Buy Cryptocurrency (On-Ramp)
 
-To participate in Arena DAO, you'll need cryptocurrency. Here are two ways to get started:
+To participate in Arena DAO, you need cryptocurrency. Below are two options for acquiring the correct tokens.
 
-#### Option A: Purchase via a Centralized Exchange (CEX)
+### Option A: Use a Centralized Exchange (CEX)
 
-1. Create an account on a CEX like [Coinbase](https://www.coinbase.com/), [Binance](https://www.binance.com/), or [Kraken](https://www.kraken.com/).
-2. Purchase USDC, ATOM, or other supported tokens.
-3. Withdraw your purchased tokens to your wallet address (see Step 3).
+1. **Sign up** for a trusted exchange like [**Coinbase**](https://www.coinbase.com/), [**Binance**](https://www.binance.com/), or [**Kraken**](https://www.kraken.com/).
+2. **Buy the Correct Cryptocurrency**
+   * **For USDC**:
+     * Purchase **USDC** (USD Coin), a stablecoin pegged to the US Dollar.
+     * **Important**: Ensure the exchange allows withdrawals of USDC on the **Noble network**. If not, consider buying **NTRN** or **ATOM** instead.
+   * **For NTRN:**
+     * Buy **NTRN**, the native token of the Neutron network.
+   * **For ATOM**:
+     * Buy **ATOM**, the native token of the Cosmos network, which is widely supported.
+3. **Withdraw Tokens to Your Wallet Address**
+   1. **Access the Withdrawal Section**:
+      * Navigate to the **"Withdraw"** or **"Send"** section of the exchange.
+   2. **Enter Your Wallet Address**:
+      * Open your Keplr or Leap wallet to copy your **wallet address**.
+      * Paste it into the withdrawal form on the exchange.
+   3. **Select the Correct Network**:
+      * For **USDC**:
+        * Choose the **Noble network** as the withdrawal network.
+        * **Note**: USDC exists on multiple networks (like Ethereum and Solana). It's crucial to select **Noble** to ensure compatibility.
+      * For **NTRN:**
+        * Select the **Neutron network**.
+      * For **ATOM**:
+        * Select the **Cosmos Hub network**.
+   4. **Confirm the Withdrawal**:
+      * Double-check all details.
+      * Confirm and submit the withdrawal request.
+      * Wait for the transaction to complete (may take a few minutes).
 
-#### Option B: Use a Fiat On-ramp Service
+#### Option B: Use an On-ramp Service
 
-Kado allows you to buy or sell digital assets instantly using your credit card or bank account. Follow their instructions to purchase supported tokens directly to your wallet.
+These services allow you to purchase cryptocurrency directly with your bank account or credit card into our Keplr or Leap wallet.
 
-{% embed url="https://app.kado.money/" %}
-Kado
-{% endembed %}
+* [**Kado**](https://www.kado.money/):
+  * Visit the Kado website.
+  * Choose **USDC** or **ATOM**.
+  * Enter your Neutron or Cosmos wallet address.
+  * Complete the purchase using your credit card or bank transfer.
+* [**Monerium**](https://monerium.com/) (For European Users):
+  * Sign up on Monerium.
+  * Purchase **EURe**.
+  * Provide your Neutron wallet address for direct transfer.
 
-### Step 3: Transfer Funds to Neutron Network
+### Step 3: Transfer Funds to the Neutron Network (if your assets are not already on Neutron)
 
-Now, let's move your funds to the Neutron network where Arena DAO operates.
+If you’ve acquired tokens like **USDC**, **ATOM**, or **EURe** but they are not yet on the **Neutron network**, you will need to bridge them over. Use one of the following bridging solutions:
 
-#### Withdraw from CEX
-
-1. In your CEX account, go to the withdrawals section.
-2. Choose your cryptocurrency and enter your wallet address as the recipient.
-3. For USDC, make sure to withdraw to the Noble network.
-4. Confirm the withdrawal and wait for the transaction to complete.
-
-#### Bridge Funds
-
-Use one of these bridging solutions to move your assets to the Neutron network:
-
-{% embed url="https://app.neutron.org/bridge" %}
-Neutron Bridge
-{% endembed %}
-
-{% embed url="https://ibc.fun/?dest_asset=ibc/b559a80d62249c8aa07a380e2a2bea6e5ca9a6f079c912c3a9e9b494105e4f81&dest_chain=neutron-1&src_asset=uusdc&src_chain=noble-1" %}
-ibc.fun Router
+{% embed url="https://go.skip.build/?dest_asset=ibc/b559a80d62249c8aa07a380e2a2bea6e5ca9a6f079c912c3a9e9b494105e4f81&dest_chain=neutron-1&src_asset=uusdc&src_chain=noble-1" %}
+Skip:Go
 {% endembed %}
 
 {% embed url="https://app.squidrouter.com/?chains=8453,neutron-1&tokens=0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE,ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81" %}
 Squid Router
 {% endembed %}
 
+{% embed url="https://app.neutron.org/bridge" %}
+Neutron Bridge
+{% endembed %}
+
 ### Step 4: Establish a Team via DAO DAO (Optional)
 
-If you're interested in creating a team to participate in competitions, you can establish a team using DAO DAO, a platform for creating and managing decentralized autonomous organizations.
+If you're interested in forming a team to participate in competitions and make use of automatic distributions, you can set up a team using **DAO DAO**, which helps you create and manage decentralized organizations.
 
-1. **Visit DAO DAO Platform**
-   * Go to [DAO DAO](https://daodao.zone/).
-2. **Create a New DAO**
-   * Click on **"Create"** and follow the on-screen instructions.
-3. **Use the Apps tab of your DAO to proceed with** [**Step 5**](how-to-get-started.md#step-5-enter-the-arena)
+**How to Set Up a Team:**
+
+1. **Visit the DAO DAO Platform**:
+   * Go to [**DAO DAO**](https://daodao.zone/).
+2. **Create a New DAO**:
+   * Click on **Create** and follow the instructions to establish your team.
+   * This will guide you through the process of naming your DAO, setting up governance rules, and adding members.
+   * Your DAO's address will be available in the URL of your DAO page.
+3. **Use the Apps Tab**:
+   * Once your DAO is created, navigate to the **Apps** tab on your DAO's page to perform actions through your DAO on other sites (step 5).
 
 {% embed url="https://docs.daodao.zone/introduction/welcome-to-dao-dao" %}
 DAO DAO Docs
 {% endembed %}
 
-_Note: This step is optional but recommended for teams seeking a formal governance structure._
-
 ### Step 5: Enter The Arena!
 
-Now that your wallet is ready and your funds are on the right network, you're set to dive into The Arena!
+Now that your wallet is set up and your funds are on the **Neutron network**, you’re ready to dive into **The Arena** and start competing.
 
 1. Visit [The Arena](https://arenadao.org) website.
-2. Click on the "Connect Wallet" button and select your wallet provider.
-3. Approve the connection request in your wallet.
-4. Start exploring competitions, joining teams, and participating in governance.
-
-**Welcome to Arena DAO - let's revolutionize decentralized competitions together!**
+2. Click on **Connect Wallet** and select your wallet provider (e.g., Keplr or Leap).
+3. Approve the connection request in your wallet to give access.
+4. Start exploring available competitions or create your own.

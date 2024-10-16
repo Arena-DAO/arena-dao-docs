@@ -30,8 +30,8 @@ As we grow, we'll transition to a token-based model using the ABC, which will au
 #### Token Distribution
 
 * Founder: 200,000 tokens (20%)
-* Arena Gladiators: 100,000 tokens (10%)
-* DAO Treasury: 300,000 tokens (30%)
+* Arena Gladiators: 50,000 tokens (10%)
+* DAO Treasury: 350,000 tokens (35%)
 * Open Phase Mint: 400,000 tokens (40%)
 
 ### Phases of the ABC
