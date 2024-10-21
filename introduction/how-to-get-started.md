@@ -1,6 +1,6 @@
 # How to get started?
 
-his guide will walk you through joining Arena DAO, from setting up your wallet to getting cryptocurrency, so you can dive into decentralized competitions with ease.
+This guide will walk you through joining Arena DAO, from setting up your wallet to getting cryptocurrency, so you can dive into decentralized competitions with ease.
 
 ### Step 1: Set Up Your Wallet
 
