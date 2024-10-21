@@ -22,7 +22,7 @@ Leap Wallet
 
 To participate in Arena DAO, you need cryptocurrency. Below are two options for acquiring the correct tokens.
 
-### Option A: Use a Centralized Exchange (CEX)
+#### Option A: Use a Centralized Exchange (CEX)
 
 1. **Sign up** for a trusted exchange like [**Coinbase**](https://www.coinbase.com/), [**Binance**](https://www.binance.com/), or [**Kraken**](https://www.kraken.com/).
 2. **Buy the Correct Cryptocurrency**
