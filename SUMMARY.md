@@ -24,4 +24,4 @@
 * [Augmented Bonding Curve](subdaos/augmented-bonding-curve.md)
 * [Token Gateway](subdaos/token-gateway.md)
 * [Treasury](subdaos/treasury.md)
-* [Arena DAO Gladiators (ADG)](subdaos/arena-dao-gladiators-adg.md)
+* [Arena DAO Gladiators (ADG)](subdaos/arena-dao-gladiators.md)
