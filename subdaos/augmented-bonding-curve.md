@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Augmented Bonding Curve
 
 An Augmented Bonding Curve (ABC) is an advanced financial mechanism used in decentralized finance (DeFi) to create and manage sustainable token economies. It builds upon traditional bonding curves, incorporating additional features to ensure a more robust and balanced ecosystem.

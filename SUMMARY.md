@@ -19,9 +19,9 @@
   * [Tournaments](the-arena-architecture/competition-modules/tournaments.md)
 * [Competition Enrollment](the-arena-architecture/competition-enrollment.md)
 
-## 🪙 Tokenomics
+## 🪙 SubDAOs
 
-* [Augmented Bonding Curve](tokenomics/augmented-bonding-curve.md)
-* [Token Gateway](tokenomics/token-gateway.md)
-* [Treasury](tokenomics/treasury.md)
-* [Arena Gladiators](tokenomics/arena-gladiators.md)
+* [Augmented Bonding Curve](subdaos/augmented-bonding-curve.md)
+* [Token Gateway](subdaos/token-gateway.md)
+* [Treasury](subdaos/treasury.md)
+* [Arena DAO Gladiators (ADG)](subdaos/arena-dao-gladiators-adg.md)

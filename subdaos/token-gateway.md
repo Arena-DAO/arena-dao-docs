@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Token Gateway
 
 The Arena Token Gateway serves as an important tool for onboarding key members into the DAO, managing the community-driven application process and token distribution through vesting. This contract enables the DAO to carefully curate the influx of new talent while fostering long-term commitment and alignment with the DAO's vision.

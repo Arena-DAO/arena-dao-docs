@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Treasury
 
 The Arena DAO's Treasury is a vital component of our ecosystem, designed to manage funds, support and incentivize community growth, development, and engagement. This treasury contains a significant allocation of ARENA tokens and serves as a financial backbone that grows over time through various revenue streams.
