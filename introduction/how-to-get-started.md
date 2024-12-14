@@ -70,14 +70,6 @@ These services allow you to purchase cryptocurrency directly with your bank acco
 
 If you’ve acquired tokens like **USDC**, **ATOM**, or **EURe** but they are not yet on the **Neutron network**, you will need to bridge them over. Use one of the following bridging solutions:
 
-{% embed url="https://go.skip.build/?dest_asset=ibc/b559a80d62249c8aa07a380e2a2bea6e5ca9a6f079c912c3a9e9b494105e4f81&dest_chain=neutron-1&src_asset=uusdc&src_chain=noble-1" %}
-Skip:Go
-{% endembed %}
-
-{% embed url="https://app.squidrouter.com/?chains=8453,neutron-1&tokens=0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE,ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81" %}
-Squid Router
-{% endembed %}
-
 {% embed url="https://app.neutron.org/bridge" %}
 Neutron Bridge
 {% endembed %}
