@@ -2,6 +2,8 @@
 
 This guide will walk you through joining Arena DAO, from setting up your wallet to getting cryptocurrency, so you can dive into decentralized competitions with ease.
 
+{% embed url="https://drive.google.com/file/d/1g1Jvy-AKbhVu6icL8h15es4C55Clevxu/view?usp=sharing" %}
+
 ### Step 1: Set Up Your Wallet
 
 To get started, you'll need a wallet that supports the Cosmos ecosystem. Here are two easy-to-use options:
